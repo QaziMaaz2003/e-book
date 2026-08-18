@@ -1,0 +1,66 @@
+// Reader testimonials
+export const testimonials = [
+  {
+    name: "Hannah Sokolewski",
+    role: "Verified Reader",
+    rating: 5,
+    text: "I've tried three other ebook stores and this is the first one where I actually finish what I buy. The categories are small enough that I don't get overwhelmed.",
+    book: "The Cartographer's Daughter",
+  },
+  {
+    name: "Devon Marsh",
+    role: "Verified Reader",
+    rating: 5,
+    text: "Checkout took less than a minute and the book was on my e-reader before I'd even closed the tab. Exactly what 'instant access' should mean.",
+    book: "The Ninth Witness",
+  },
+  {
+    name: "Aisha Rahman",
+    role: "Verified Reader",
+    rating: 4,
+    text: "Good curation. I've found three new favorite authors here that I never would have come across on a bigger platform.",
+    book: "Salt and Marrow",
+  },
+  {
+    name: "Carlos Bautista",
+    role: "Verified Reader",
+    rating: 5,
+    text: "The 'You May Also Like' trail on book pages is genuinely useful, not just a filler widget. It's led me down some great rabbit holes.",
+    book: "A Quiet Place to Die",
+  },
+  {
+    name: "Marta Lindqvist",
+    role: "Verified Reader",
+    rating: 5,
+    text: "Simple, honest pricing and no subscription pressure. I buy what I want to read and that's it.",
+    book: "Focus Like a Closed Door",
+  },
+  {
+    name: "Owen Fitzgerald",
+    role: "Verified Reader",
+    rating: 4,
+    text: "The history and biography section alone is worth the visit. Well-researched picks, not just the usual bestseller list.",
+    book: "The Winter Court",
+  },
+  {
+    name: "Ines Duarte",
+    role: "Verified Reader",
+    rating: 5,
+    text: "Clean site, fast checkout, and books that don't feel randomly generated. It's obvious someone actually picked these.",
+    book: "Everything We Buried",
+  },
+  {
+    name: "Samuel Okoye",
+    role: "Verified Reader",
+    rating: 5,
+    text: "I recommend MyLibraryEra to anyone who says they 'used to read more.' The smaller catalog makes picking something actually easy.",
+    book: "Nine Winters in Esk",
+  },
+  {
+    name: "Rebecca Lin",
+    role: "Verified Reader",
+    rating: 4,
+    text: "Support answered a formatting question within the day and were genuinely helpful about it, not just copy-pasting a script.",
+    book: "The Slow Fix",
+  },
+];
