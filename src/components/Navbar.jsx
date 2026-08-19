@@ -34,10 +34,11 @@ export default function Navbar() {
     <header
       className={`fixed top-0 left-0 right-0 z-50
         transition-all duration-700 ease-in-out
+        bg-white/95 border-b border-black/10 shadow-sm backdrop-blur-md
         ${
           scrolled
-            ? "bg-white/95 border-b border-black/10 shadow-sm backdrop-blur-md"
-            : "bg-transparent border-b border-transparent"
+            ? "lg:bg-white/95 lg:border-b lg:border-black/10 lg:shadow-sm lg:backdrop-blur-md"
+            : "lg:bg-transparent lg:border-b lg:border-transparent"
         }`}
     >
       <div className="max-w-7xl mx-auto px-5 sm:px-8">
@@ -49,8 +50,8 @@ export default function Navbar() {
             to="/"
             onClick={() => setMenuOpen(false)}
             className={`shrink-0 font-display text-xl sm:text-2xl tracking-wide
-              transition-all duration-700 ${
-                scrolled ? "text-black" : "text-white"
+              transition-all duration-700 text-black ${
+                scrolled ? "lg:text-black" : "lg:text-white"
               }`}
           >
             MyLibrary<span className="italic">Era</span>
@@ -104,8 +105,8 @@ export default function Navbar() {
             <button
               aria-label="Toggle search"
               onClick={() => setSearchOpen((s) => !s)}
-              className={`p-2 transition-all duration-700 ${
-                scrolled ? "text-black" : "text-white"
+              className={`p-2 transition-all duration-700 text-black ${
+                scrolled ? "lg:text-black" : "lg:text-white"
               }`}
             >
               <svg width="20" height="20" viewBox="0 0 24 24" fill="none">
@@ -129,8 +130,8 @@ export default function Navbar() {
               aria-label="Toggle menu"
               aria-expanded={menuOpen}
               onClick={() => setMenuOpen((m) => !m)}
-              className={`p-2 transition-all duration-700 ${
-                scrolled ? "text-black" : "text-white"
+              className={`p-2 transition-all duration-700 text-black ${
+                scrolled ? "lg:text-black" : "lg:text-white"
               }`}
             >
               {menuOpen ? (
@@ -170,12 +171,8 @@ export default function Navbar() {
 
       {/* Mobile Menu */}
       <div
-        className={`lg:hidden overflow-hidden transition-all duration-500 ${
+        className={`lg:hidden overflow-hidden transition-all duration-500 bg-white border-t border-black/10 ${
           menuOpen ? "max-h-96 opacity-100" : "max-h-0 opacity-0"
-        } ${
-          scrolled
-            ? "bg-white border-t border-black/10"
-            : "bg-black/90 border-t border-white/10"
         }`}
       >
         <nav className="flex flex-col px-5 sm:px-8 py-4 gap-1">
@@ -187,14 +184,8 @@ export default function Navbar() {
               end={l.to === "/"}
               onClick={() => setMenuOpen(false)}
               className={({ isActive }) =>
-                `py-3 text-base border-b last:border-b-0 transition-colors ${
-                  scrolled
-                    ? `border-black/10 ${
-                        isActive ? "text-accent" : "text-black/60 hover:text-accent"
-                      }`
-                    : `border-white/10 ${
-                        isActive ? "text-accent" : "text-white/70 hover:text-accent"
-                      }`
+                `py-3 text-base border-b last:border-b-0 border-black/10 transition-colors ${
+                  isActive ? "text-accent" : "text-black/60 hover:text-accent"
                 }`
               }
             >

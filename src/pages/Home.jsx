@@ -78,11 +78,10 @@ export default function Home() {
               <Button to="/categories" variant="primary" className="hover:!bg-accent hover:!text-white">Explore Books</Button>
               <Button to="/about" variant="outline">How It Works</Button>
             </div>
-            <div className="flex items-center gap-8 mt-6 pt-6 border-t border-white/20">
-              <div>
-                <p className="font-display text-3xl text-white">300+</p>
-                <p className="text-sm text-white/50 uppercase tracking-widest2 mt-1">Titles</p>
-              </div>
+            <div className="flex flex-wrap items-center gap-x-8 gap-y-4 mt-6 pt-6 border-t border-white/20">              <div>
+              <p className="font-display text-3xl text-white">300+</p>
+              <p className="text-sm text-white/50 uppercase tracking-widest2 mt-1">Titles</p>
+            </div>
               <div>
                 <p className="font-display text-3xl text-white">15</p>
                 <p className="text-sm text-white/50 uppercase tracking-widest2 mt-1">Genres</p>

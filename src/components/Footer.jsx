@@ -47,8 +47,8 @@ export default function Footer() {
               <a href="tel:+13125550172" className="hover:text-accent hover:underline decoration-accent/60 transition-colors">(312) 555-0172</a>
             </li>
             <li>
-              <a href="mailto:hello@mylibraryera.com" className="hover:text-accent hover:underline decoration-accent/60 transition-colors">
-                hello@mylibraryera.com
+              <a href="mailto:service@mylibraryera.com" className="hover:text-accent hover:underline decoration-accent/60 transition-colors">
+                service@mylibraryera.com
               </a>
             </li>
             <li className="text-white/50">Mon–Fri, 9:00 AM – 6:00 PM CT</li>

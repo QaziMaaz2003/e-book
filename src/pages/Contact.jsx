@@ -4,7 +4,7 @@ import SectionTitle from "../components/SectionTitle.jsx";
 const info = [
   { label: "Address", value: "500 W Madison St, Suite 2200, Chicago, IL 60661" },
   { label: "Phone", value: "(312) 555-0172" },
-  { label: "Email", value: "hello@mylibraryera.com" },
+  { label: "Email", value: "service@mylibraryera.com" },
   { label: "Hours", value: "Mon–Fri, 9:00 AM – 6:00 PM CT" },
 ];
 
